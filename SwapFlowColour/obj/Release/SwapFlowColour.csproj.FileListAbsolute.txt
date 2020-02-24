@@ -1,0 +1,6 @@
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Pope'r Power Plant.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Pope'r Power Plant.pdb
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.csprojAssemblyReference.cache
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CoreCompileInputs.cache
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\Pope'r Power Plant.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\Pope'r Power Plant.pdb
