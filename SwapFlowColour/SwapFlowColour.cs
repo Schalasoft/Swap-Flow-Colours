@@ -1,20 +1,60 @@
 ﻿using System;
 using Harmony;
+using PeterHan.PLib;
+using PeterHan.PLib.Options;
+using UnityEngine;
 
 namespace SwapFlowColour
 {
     [HarmonyPatch(typeof(BuildingCellVisualizerResources), "Initialize")]
     public class BuildingCellVisualizerResources_Patch
     {
+        public static void OnLoad()
+        {
+            POptions.RegisterOptions(typeof(SwapFlowColourOptions));
+        }
+
         public static void Postfix(ref BuildingCellVisualizerResources __instance)
         {
-            BuildingCellVisualizerResources.ConnectedDisconnectedColours input = __instance.liquidIOColours.input;
-            __instance.liquidIOColours.input = __instance.liquidIOColours.output;
-            __instance.liquidIOColours.output = input;
+            SwapFlowColourAssets.Options = POptions.ReadSettings<SwapFlowColourOptions>() ?? new SwapFlowColourOptions();
 
-            BuildingCellVisualizerResources.ConnectedDisconnectedColours input2 = __instance.gasIOColours.input;
-            __instance.gasIOColours.input = __instance.gasIOColours.output;
-            __instance.gasIOColours.output = input2;
+            if (SwapFlowColourAssets.Options.RedBlue)
+                RedBlue(__instance);
+            else
+                SwapFlowColour(__instance);
+
+        }
+
+        static void RedBlue(BuildingCellVisualizerResources instance)
+        {
+            // Connections
+            Color32 blueInputConnected     = Color.blue;
+            Color32 blueInputDisconnected  = Color.blue;
+            Color32 redOutputConnected     = Color.red;
+            Color32 redOutputDisconnected  = Color.red;
+
+            // Liquid
+            instance.liquidIOColours.input.connected     = blueInputConnected;
+            instance.liquidIOColours.input.disconnected  = blueInputDisconnected;
+            instance.liquidIOColours.output.connected    = redOutputConnected;
+            instance.liquidIOColours.output.disconnected = redOutputDisconnected;
+
+            // Gas
+            instance.gasIOColours.input.connected        = blueInputConnected;
+            instance.gasIOColours.input.disconnected     = blueInputDisconnected;
+            instance.gasIOColours.output.connected       = redOutputConnected;
+            instance.gasIOColours.output.disconnected    = redOutputDisconnected;
+        }
+
+        static void SwapFlowColour(BuildingCellVisualizerResources instance)
+        {
+            BuildingCellVisualizerResources.ConnectedDisconnectedColours input = instance.liquidIOColours.input;
+            instance.liquidIOColours.input  = instance.liquidIOColours.output;
+            instance.liquidIOColours.output = input;
+
+            BuildingCellVisualizerResources.ConnectedDisconnectedColours input2 = instance.gasIOColours.input;
+            instance.gasIOColours.input  = instance.gasIOColours.output;
+            instance.gasIOColours.output = input2;
         }
     }
 }

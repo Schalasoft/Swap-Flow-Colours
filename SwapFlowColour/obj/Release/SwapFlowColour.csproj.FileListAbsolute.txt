@@ -1,6 +1,10 @@
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Pope'r Power Plant.dll
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Pope'r Power Plant.pdb
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.csprojAssemblyReference.cache
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CoreCompileInputs.cache
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\Pope'r Power Plant.dll
-C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\Pope'r Power Plant.pdb
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\SwapFlowColour.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\SwapFlowColour.pdb
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.pdb
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\SwapFlowColour.dll.config
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Newtonsoft.Json.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\PLibOptions.dll
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\Newtonsoft.Json.xml
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\bin\Release\PLibOptions.xml
+C:\Users\cdoherty\source\repos\SwapFlowColour\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CopyComplete
