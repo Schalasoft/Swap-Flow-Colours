@@ -1,6 +1,4 @@
-﻿using System;
-using Harmony;
-using PeterHan.PLib;
+﻿using HarmonyLib;
 using PeterHan.PLib.Options;
 using UnityEngine;
 
@@ -9,14 +7,17 @@ namespace SwapFlowColour
     [HarmonyPatch(typeof(BuildingCellVisualizerResources), "Initialize")]
     public class BuildingCellVisualizerResources_Patch
     {
+        private static SwapFlowColourOptions m_options = new SwapFlowColourOptions();
+
         public static void OnLoad()
         {
-            POptions.RegisterOptions(typeof(SwapFlowColourOptions));
+            POptions pOptions = new POptions();
+            pOptions.RegisterOptions(m_options, typeof(bool));
         }
 
         public static void Postfix(ref BuildingCellVisualizerResources __instance)
         {
-            SwapFlowColourAssets.Options = POptions.ReadSettings<SwapFlowColourOptions>() ?? new SwapFlowColourOptions();
+            SwapFlowColourAssets.Options = POptions.ReadSettings<SwapFlowColourOptions>() ?? m_options;
 
             if (SwapFlowColourAssets.Options.RedBlue)
                 RedBlue(__instance);
