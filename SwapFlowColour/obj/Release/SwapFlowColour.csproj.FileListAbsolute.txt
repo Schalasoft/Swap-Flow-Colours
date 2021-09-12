@@ -23,3 +23,4 @@ C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\Swap
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CopyComplete
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.dll
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.pdb
+C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.csprojAssemblyReference.cache

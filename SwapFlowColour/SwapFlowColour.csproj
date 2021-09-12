@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SwapFlowColour.cs" />
     <Compile Include="SwapFlowColourAssets.cs" />
+    <Compile Include="SwapFlowColourModInfo.cs" />
     <Compile Include="SwapFlowColourOptions.cs" />
   </ItemGroup>
   <ItemGroup>

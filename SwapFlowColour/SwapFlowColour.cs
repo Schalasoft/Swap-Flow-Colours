@@ -7,17 +7,9 @@ namespace SwapFlowColour
     [HarmonyPatch(typeof(BuildingCellVisualizerResources), "Initialize")]
     public class BuildingCellVisualizerResources_Patch
     {
-        private static SwapFlowColourOptions m_options = new SwapFlowColourOptions();
-
-        public static void OnLoad()
-        {
-            POptions pOptions = new POptions();
-            pOptions.RegisterOptions(m_options, typeof(bool));
-        }
-
         public static void Postfix(ref BuildingCellVisualizerResources __instance)
         {
-            SwapFlowColourAssets.Options = POptions.ReadSettings<SwapFlowColourOptions>() ?? m_options;
+            SwapFlowColourAssets.Options = POptions.ReadSettings<SwapFlowColourOptions>() ?? new SwapFlowColourOptions();
 
             if (SwapFlowColourAssets.Options.RedBlue)
                 RedBlue(__instance);
