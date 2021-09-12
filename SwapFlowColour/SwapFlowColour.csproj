@@ -74,10 +74,6 @@
     <Compile Include="SwapFlowColourOptions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PLib\PLibOptions.dll" />
-    <Content Include="PLib\PLibOptions.xml" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\mod.yaml">

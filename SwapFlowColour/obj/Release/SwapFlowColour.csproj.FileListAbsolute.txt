@@ -15,12 +15,11 @@ C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\Swap
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\SwapFlowColour.pdb
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\0Harmony.dll
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\Newtonsoft.Json.dll
+C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\PLib.dll
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\0Harmony.xml
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\Newtonsoft.Json.xml
-C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.csprojAssemblyReference.cache
+C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\PLib.xml
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CoreCompileInputs.cache
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.csproj.CopyComplete
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.dll
 C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\obj\Release\SwapFlowColour.pdb
-C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\PLib.dll
-C:\Users\Cian\Documents\GitHub\Swap-Flow-Colours\SwapFlowColour\bin\Release\PLib.xml
